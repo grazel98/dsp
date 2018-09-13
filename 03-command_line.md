@@ -61,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* ls -a
+* ls -r
+* ls -R
+* ls -t
+* ls -1
 
 ---
 
@@ -69,7 +73,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs is used to accept standard input as arguments for a command. It separates 'pieces' at whitespace and repeats the initial command. For example this describes the typical progression of cuisine when camping, taking and then echoing two foods at a time:
 
- 
+echo "apple banana potato onion marshmallow chocolate" | xargs -n 2
+
+giving the output:
+apple banana
+potato onion
+marshmallow chocolate
 
