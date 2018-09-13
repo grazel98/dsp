@@ -50,10 +50,10 @@ What do the following commands do:
 | ls       | lists contents of current directory
 | ls -a    | lists contents of current directory, including hidden files |
 | ls -l    | lists contents of current directory, plus content attributes | 
-| ls -lh   | lists contents of current directory, plus content attributes<br>and uses unit suffixes to reduce the length of file sizes |
-| ls -lah  | lists contents of current directory, including hidden files,<br>plus content attributes and uses unit suffixes<br>to reduce the length of file sizes |
+| ls -lh   | lists contents of current directory, plus content attributes and uses unit prefixes to reduce the length of file sizes |
+| ls -lah  | lists contents of current directory, including hidden files, plus content attributes and uses unit suffixes to reduce the length of file sizes |
 | ls -t    | lists contents of current directory, in order of last modified |
-| ls -Glp  | lists contents of current directory, plus content attributes,<br>colored and denoted by type |
+| ls -Glp  | lists contents of current directory, plus content attributes, colored and denoted by type |
 
 ---
 
