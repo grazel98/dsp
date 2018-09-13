@@ -21,16 +21,16 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 * pwd - show current working directory path
-* mkdir <directory> - creating a directory
-* rmdir <directory> - deleting a directory
-* touch <filename> - creating a file using `touch` command
-* rm <filename> - deleting a file
-* mv <filename> <new_name> - renaming a file
+* mkdir \<dir> - creating a directory
+* rmdir \<dir> - deleting a directory
+* touch \<file> - creating a file using `touch` command
+* rm \<file> - deleting a file
+* mv \<file> <new_name> - renaming a file
 * ls -a - listing hidden files
 * mv <dir+file> <new_dir> - copying a file from one directory to another
-* cd <directory> - change directory
-* chmod <permission_code> <filename> - change file permissions
-* info <command> - documentation for command
+* cd \<dir> - change directory
+* chmod \<code> \<file> - change file permissions
+* info \<command> - documentation for command
 
 ---
 
