@@ -9,18 +9,28 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 ### Q1.  Cheat Sheet of Commands  
 
 Here's a list of items with which you should be familiar:  
-* show current working directory path
-* creating a directory
-* deleting a directory
-* creating a file using `touch` command
-* deleting a file
-* renaming a file
-* listing hidden files
-* copying a file from one directory to another
+* pwd - show current working directory path
+* mkdir <dir> - creating a directory
+* rmdir <dir> - deleting a directory
+* touch <file> - creating a file using `touch` command
+* rm <file> - deleting a file
+* mv <file> <new_name> - renaming a file
+* ls -a - listing hidden files
+* mv - <dir+file> <new_dir> - copying a file from one directory to another
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* pwd - show current working directory path
+* mkdir <dir> - creating a directory
+* rmdir <dir> - deleting a directory
+* touch <file> - creating a file using `touch` command
+* rm <file> - deleting a file
+* mv <file> <new_name> - renaming a file
+* ls -a - listing hidden files
+* mv <dir+file> <new_dir> - copying a file from one directory to another
+* cd <dir> - change directory
+* chmod <code> <file> - change file permissions
+* info <command> - documentation for command
 
 ---
 
@@ -35,7 +45,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+| Command  | Action |
+| ----     | ---- |
+| ls       | lists contents of current directory
+| ls -a    | lists contents of current directory, including hidden files |
+| ls -l    | lists contents of current directory, plus content attributes | 
+| ls -lh   | lists contents of current directory, plus content attributes<br>and uses unit suffixes to reduce the length of file sizes |
+| ls -lah  | lists contents of current directory, including hidden files,<br>plus content attributes and uses unit suffixes<br>to reduce the length of file sizes |
+| ls -t    | lists contents of current directory, in order of last modified |
+| ls -Glp  | lists contents of current directory, plus content attributes,<br>colored and denoted by type |
 
 ---
 
