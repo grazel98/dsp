@@ -29,7 +29,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * ls -a - listing hidden files
 * mv <dir+file> <new_dir> - copying a file from one directory to another
 * cd <dir> - change directory
-* chmod <code> <file> - change file permissions
+* chmod <permission_code> <file> - change file permissions
 * info <command> - documentation for command
 
 ---
