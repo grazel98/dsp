@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* pwd - show current working directory path
+* mkdir \<dir> - creating a directory
+* rmdir \<dir> - deleting a directory
+* touch \<file> - creating a file using `touch` command
+* rm \<file> - deleting a file
+* mv \<file> <new_name> - renaming a file
+* ls -a - listing hidden files
+* mv <dir+file> <new_dir> - copying a file from one directory to another
+* cd \<dir> - change directory
+* chmod \<code> \<file> - change file permissions
+* info \<command> - documentation for command
 
 ---
 
@@ -35,7 +45,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+| Command  | Action |
+| ----     | ---- |
+| ls       | lists contents of current directory
+| ls -a    | lists contents of current directory, including hidden files |
+| ls -l    | lists contents of current directory, plus content attributes | 
+| ls -lh   | lists contents of current directory, plus content attributes and uses unit prefixes to reduce the length of file sizes |
+| ls -lah  | lists contents of current directory, including hidden files, plus content attributes and uses unit suffixes to reduce the length of file sizes |
+| ls -t    | lists contents of current directory, in order of last modified |
+| ls -Glp  | lists contents of current directory, plus content attributes, colored and denoted by type |
 
 ---
 
@@ -43,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* ls -a
+* ls -r
+* ls -R
+* ls -t
+* ls -1
 
 ---
 
@@ -51,7 +73,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs is used to accept standard input as arguments for a command. It separates 'pieces' at whitespace and repeats the initial command. For example this describes the typical progression of cuisine when camping, taking and then echoing two foods at a time:
 
- 
+echo "apple banana potato onion marshmallow chocolate" | xargs -n 2
+
+giving the output:
+apple banana
+potato onion
+marshmallow chocolate
 
